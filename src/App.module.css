@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__body {
+  display: flex;
+  background-color: aqua;
+}
