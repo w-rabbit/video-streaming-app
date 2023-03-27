@@ -2,35 +2,36 @@
   display: flex;
   align-items: center;
   padding: 10px 10px;
+  flex-direction: column;
+  font-size: large;
 }
 
 .sidebarRow__icon {
   color: #444444;
-  font-size: large !important;
+  font-size: larger !important;
 }
 
 .sidebarRow__title {
   color: #444444;
   flex: 1;
-  margin-left: 0.5rem;
   font-weight: 500;
   font-size: 12px;
 }
 
 .sidebarRow:hover {
   cursor: pointer;
-  background-color: whitesmoke;
+  background-image: linear-gradient(to right, gray, white);
 }
 
 .sidebarRow:hover > .sidebarRow__icon {
   color: blueviolet;
 }
 .sidebarRow:hover > .sidebarRow__title {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .sidebarRow.selected {
-  background-color: aliceblue;
+  background-image: linear-gradient(to right, gray, white);
 }
 
 .sidebarRow.selected > .sidebarRow__icon {
